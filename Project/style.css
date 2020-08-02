@@ -541,6 +541,9 @@ form a{
     transform: translateY(25%);
 }
 /*-----------contact page----------*/
+.contact{
+    margin: 0 auto 100px;
+}
 .cont{
     color: #ff523b;
 }
@@ -553,17 +556,25 @@ form a{
     height: 450px;
     position: relative;
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     margin-bottom: 30px;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-.form-container2 label{
-    color: #ff523b;
+.contact label{
+    color: #e23a27;
 }
 .country{
     float: left;
 }
 .subject{
     float: right;
+}
+.contact form input{
+    width: 90%;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+.contact form .btn{
+    width: 50%;
 }
